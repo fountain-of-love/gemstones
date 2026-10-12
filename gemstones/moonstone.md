@@ -22,6 +22,46 @@ tags:
   - gemstone
   - mineral/feldspar
   - composition/validated
+therapeutic_concepts:
+  emotional:
+    - concept: "[[concepts/emotional/empathy|empathy]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/loneliness|loneliness]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/hope|hope]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  mental:
+    - concept: "[[concepts/mental/intuition|intuition]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/creativity|creativity]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/memory|memory]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  physical:
+    - concept: "[[concepts/physical/reproductive-health|reproductive health]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/digestion|digestion]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/circulation|circulation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
 ---
 
 # Moonstone: Characteristics and Effects
@@ -67,6 +107,8 @@ Graph links worth following: [[Feldspar]], [[Orthoclase]], [[Albite]], [[Adulare
 | [[gemstone-dictionary#Image URL\|Image URL]] | https://www.semoea.nl/images/stories/blauwe-maansteen.gif |
 | [[gemstone-dictionary#Alt Text\|Alt text]] | blauwe maansteen |
 | [[gemstone-dictionary#Caption\|Caption]] | Not listed on source page. |
+
+![Blauwe maansteen](../assets/moonstone.gif)
 
 ## Key Identity
 
@@ -156,20 +198,36 @@ Moonstone is mainly treated as a lunar, feminine, hopeful, emotionally balancing
 
 ### Spiritual
 
-- Associated especially with the sacral chakra and also heart, forehead, and crown chakra placements.
-- Linked with empathy, intuition, people knowledge, spiritual growth through compassion and connectedness, feminine qualities, moon cycles, sea tides, and mediumistic sensitivity.
+- Associated especially with the sacral chakra and also with the heart, forehead, and crown chakras.
+- Enlarges the heart chakra in the source tradition, supporting [[concepts/emotional/empathy|empathy]] and spiritual growth through compassion.
+- Enlarges the forehead chakra, associated with [[concepts/mental/intuition|intuition]] and people knowledge.
+- Enlarges the crown chakra, associated with spiritual growth through connectedness.
+- Strengthens the feminine side, including in men.
+- Linked with the moon, moon cycles, the sea, tides, and mediumistic sensitivity.
+- Meditation during the full moon is associated with increased [[concepts/mental/intuition|intuition]] and clairvoyance.
 
 ### Mental
 
-- Linked with empathy, spontaneous ideas, creative realization, and a more nuanced inner life.
+- Makes the wearer more empathic and receptive to other people.
+- Gives spontaneous ideas and [[concepts/mental/creativity|creative insights]] more room and energy to become real.
+- Deepens and nuances the inner or spiritual life; the source describes wearing a white moonstone pendant on the heart.
 
 ### Emotional
 
-- Associated with cleansing the emotional aura, moderating emotional outbursts, contentment, emotional balance, softened bitterness, stress balance, and hope.
+- Associated with cleansing the emotional layer of the aura and reducing emotional outbursts.
+- Helps bring emotions into balance and changes listlessness, [[concepts/emotional/loneliness|loneliness]], and abandonment toward active engagement.
+- Softens hardened or embittered feelings.
+- Associated with balance during stress and overload.
+- Represents [[concepts/emotional/hope|hope]].
 
 ### Physical
 
-- Linked with sacral-chakra organs, bladder complaints, lymph system, edema, circulation, short-term memory, pineal gland, growth of children, sleep rhythm, pituitary and reproductive organs, menstruation, fertility, pregnancy, menopause, asthma complaints, digestion, and insect-bite reactions.
+- Linked with organs associated with the sacral chakra, including bladder complaints, the lymphatic system, and edema.
+- Associated with blood, lymph, kidney, and bladder [[concepts/physical/circulation|circulation]].
+- Linked with short-term memory and study support for children preparing for tests or examinations.
+- Associated with the pineal gland, day-night rhythm, and seasonal rhythm.
+- Linked with growth in children, pituitary and [[concepts/physical/reproductive-health|reproductive organs]], menstruation, fertility, pregnancy, menopause, asthma complaints, [[concepts/physical/digestion|digestion]], and insect-bite reactions.
+- The source describes placing the stone under the navel for menstruation-related use and on the heart for emotional effects.
 
 ## Runes And Symbolic Associations
 
@@ -227,6 +285,12 @@ Moonstone is mainly treated as a lunar, feminine, hopeful, emotionally balancing
 | Composition externally validated | Yes, with feldspar-variety caveat. |
 | At least two external sources added | Yes. |
 | Therapeutic claims attributed | Yes; framed as gemstone-therapy tradition, not medical advice. |
+| Therapeutic coverage complete against source | Yes; the detailed indexed therapeutic lists are represented claim by claim. |
+| Therapeutic instructions and warnings preserved | Yes; placements, timing, and source qualifiers are retained. |
+| Source-specific context coverage complete | Yes; historical, naming, symbolic, trade, and `Did You Know` details are represented. |
+| Source disclaimers and responsibility statements preserved | Yes; source responsibility and medical-care boundaries are represented in the page and notes. |
+| Therapeutic concepts source-mapped | Initial controlled vocabulary mapped from explicit source themes; prose remains canonical. |
+| Therapeutic concept candidates reconciled | Not yet; see the therapeutic concept coverage audit. |
 | Body uses observational voice | Yes. |
 | Content not compressed into high-level summary | Yes for proof-run coverage; long prose is paraphrased rather than copied. |
 

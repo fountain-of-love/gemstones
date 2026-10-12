@@ -20,6 +20,378 @@ tags:
   - gemstone
   - mineral/feldspar
   - composition/validated
+therapeutic_concepts:
+  emotional:
+    - concept: "[[concepts/emotional/sadness|sadness]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/worry|worry]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/mood-swings|mood swings]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/inner-division|inner division]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/fear|fear]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/trauma|trauma]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/frustration|frustration]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/irritation|irritation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/cheerfulness|cheerfulness]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/emotional-balance|emotional balance]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/calm|emotional calm]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/loss-of-control|loss of control]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/nervousness|nervousness]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  mental:
+    - concept: "[[concepts/mental/mental-clarity|mental clarity]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/adhd|ADHD]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/overview|overview]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/intuition|intuition]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/problem-solving|problem-solving]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/willpower|willpower]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/intellect|intellect]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/concentration|concentration]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/psychological-complaints|psychological complaints]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/information-filtering|information filtering]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/information-processing|information processing]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/calm|mental calm]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/reflective-examination|reflective examination]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/rumination|rumination]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/mental/body-awareness|body awareness]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/mental/negative-thoughts|negative thoughts]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+  physical:
+    - concept: "[[concepts/physical/skin|skin]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/nervous-system|nervous system]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/immune-system|immune system]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/brain|brain]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/hormonal-system|hormonal system]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/metabolism|metabolism]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/circulation|circulation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/lymphatic-system|lymphatic system]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/bones|bones]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/teeth|teeth]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/headache|headache]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/sleep|sleep]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/wounds|wounds]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/pain|pain]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/fatigue|fatigue]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/physical/autonomic-functions|autonomic functions]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/physical/incontinence|incontinence]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/physical/bed-wetting|bed-wetting]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/physical/hyperventilation|hyperventilation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+      source_section: Emotional
+    - concept: "[[concepts/physical/hair|hair]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/acne|acne]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/itching|itching]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/flaky-skin|flaky skin]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/lips|lips]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/psoriasis|psoriasis]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/fungal-infection|fungal infection]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/swimmers-eczema|swimmer's eczema]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/herpes-simplex|herpes simplex]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/brain-hemispheres|brain hemispheres]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/autonomic-nervous-system|autonomic nervous system]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/breathing|breathing]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/heart-rhythm|heart rhythm]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/pituitary|pituitary gland]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/thymus|thymus]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/internal-organs|internal organs]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/relaxation|relaxation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/menstrual-cramps|menstrual cramps]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/childbirth|childbirth]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/arthrosis|arthrosis]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/rheumatism|chronic rheumatism]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/heart|heart]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/blood-quality|blood quality]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/arteries|arteries]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/veins|veins]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/osteoporosis|osteoporosis]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/calcium|calcium]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/migraine|migraine]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/tension-headache|tension headache]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/childhood-diseases|childhood diseases]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/measles|measles]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/smallpox|smallpox]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/insomnia|insomnia]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/down-syndrome|Down syndrome]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/burns|burns]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/sunburn|sunburn]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/scar-tissue|scar tissue]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/rough-skin|rough skin]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/repetitive-strain-injury|repetitive strain injury]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/mouse-arm|mouse arm]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/tennis-elbow|tennis elbow]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/carpal-tunnel|carpal tunnel]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
 ---
 
 # Amazonite: Characteristics and Effects
@@ -65,6 +437,8 @@ Graph links worth following: [[Microcline]], [[Feldspar]], [[Alkali Feldspar]], 
 | [[gemstone-dictionary#Image URL\|Image URL]] | https://www.semoea.nl/images/stories/amazoniet-gepolijst.gif |
 | [[gemstone-dictionary#Alt Text\|Alt text]] | ruwe amazoniet |
 | [[gemstone-dictionary#Caption\|Caption]] | Ruwe amazoniet, gepolijst vlak |
+
+![Ruwe amazoniet, gepolijst vlak](../assets/amazonite.gif)
 
 ## Key Identity
 
@@ -159,19 +533,40 @@ Amazonite is treated as a regenerative, investigative, calming, and balancing st
 
 ### Spiritual
 
-- Linked with taking responsibility, leaving victimhood, viewing problems from several angles, recognizing potential growth, and opening heart, thymus, forehead, and crown chakras while connecting them to the throat chakra.
+- Helps the wearer take responsibility rather than seeing themselves as a victim of circumstances.
+- Encourages viewing a problem from several angles so that appropriate next steps become visible.
+- Builds awareness of potential growth.
+- Associated with the heart, thymus, forehead, and crown chakras, opening them and connecting them with the throat chakra.
+- Represents renewal, rejuvenation, and vitality.
 
 ### Mental
 
-- Associated with willpower, intellect, blood flow to the brain, mild psychological complaints, ADHD, filtering information, combining information with intuition, mental calm, overview, and problem-solving.
+- Supports [[concepts/mental/willpower|willpower]] and strengthens the [[concepts/mental/intellect|intellect]].
+- Traditionally associated with improved blood flow to the [[concepts/physical/brain|brain]].
+- Used in the source tradition for [[concepts/mental/psychological-complaints|mild psychological complaints]] and [[concepts/mental/adhd|ADHD]].
+- Described as [[concepts/mental/information-filtering|filtering information]] passing through the brain and [[concepts/mental/information-processing|combining information]] with [[concepts/mental/intuition|intuition]].
+- Associated with [[concepts/mental/calm|mental calm]], [[concepts/mental/mental-clarity|mental clarity]], [[concepts/mental/overview|overview]], and [[concepts/mental/reflective-examination|calmly examining]] and [[concepts/mental/problem-solving|solving a problem]] from all sides.
 
 ### Emotional
 
-- Linked with calm, balance during mood swings, sadness, repetitive thoughts, worries, fear of losing control, awareness of unconscious body functions, trauma-softening, removing frustration, and spring fatigue.
+- [[concepts/emotional/calm|Calms]] and supports [[concepts/emotional/emotional-balance|balancing emotions]] around extreme [[concepts/emotional/mood-swings|mood swings]] and feelings of [[concepts/emotional/inner-division|inner division]].
+- Associated with [[concepts/emotional/sadness|sadness]], [[concepts/mental/rumination|repetitive thoughts]], and [[concepts/emotional/worry|worries]].
+- Used for [[concepts/emotional/fear|fear]] of [[concepts/emotional/loss-of-control|losing control]] and for [[concepts/mental/body-awareness|awareness]] of [[concepts/physical/autonomic-functions|unconscious bodily functions]], including [[concepts/physical/incontinence|incontinence]] and [[concepts/physical/bed-wetting|bed-wetting]] claims.
+- Associated with [[concepts/physical/hyperventilation|hyperventilation]], [[concepts/emotional/trauma|trauma-softening]], worries, fears, [[concepts/mental/negative-thoughts|negative thoughts]], [[concepts/emotional/frustration|frustration]], and [[concepts/emotional/irritation|irritation]].
+- Described as a stone for spring [[concepts/physical/fatigue|fatigue]], bringing [[concepts/emotional/cheerfulness|cheerfulness]] at the end of winter.
 
 ### Physical
 
-- Linked with skin and hair complaints, acne, pimples, hair loss, itching, flaky skin and lips, psoriasis, fungal infections, cold sores, nervous-system balance, brain complaints, vegetative nervous system, hormonal system, pituitary, thymus, immune support, internal organs, metabolism, menstruation cramps, childbirth, arthrosis, chronic rheumatism, heart and blood quality, blood and lymph flow, vessels, osteoporosis, tooth decay, calcium issues, headache, migraine, childhood diseases, sleep, and [[Down syndrome]].
+- The source tradition links amazonite oil with [[concepts/physical/acne|acne]], pimples, [[concepts/physical/wounds|small wounds]], chapped skin and [[concepts/physical/lips|lips]], scar formation, and [[concepts/physical/herpes-simplex|herpes simplex/cold sores]].
+- Associated with [[concepts/physical/skin|skin]] and [[concepts/physical/hair|hair]] complaints including hair loss, [[concepts/physical/itching|itching]], [[concepts/physical/flaky-skin|flaky skin]], [[concepts/physical/psoriasis|psoriasis]], [[concepts/physical/fungal-infection|fungal infections]], and [[concepts/physical/swimmers-eczema|swimmer's eczema]].
+- Associated with balancing the [[concepts/physical/nervous-system|nervous system]], the [[concepts/physical/brain-hemispheres|left and right brain hemispheres]], and complaints of the [[concepts/physical/autonomic-nervous-system|autonomic nervous system]], including [[concepts/physical/breathing|breathing]], [[concepts/physical/heart-rhythm|heart rhythm]], and [[concepts/physical/digestion|digestion]].
+- Linked with the [[concepts/physical/hormonal-system|hormonal system]], especially the [[concepts/physical/pituitary|pituitary]] and [[concepts/physical/thymus|thymus]], and with [[concepts/physical/immune-system|immune support]].
+- Associated with [[concepts/physical/internal-organs|internal organs]], [[concepts/physical/metabolism|metabolism]], [[concepts/physical/liver|liver-related complaints]], [[concepts/physical/relaxation|relaxation]], [[concepts/physical/menstrual-cramps|menstrual cramps]], and [[concepts/physical/childbirth|childbirth]].
+- Linked with [[concepts/physical/arthrosis|arthrosis]] and [[concepts/physical/rheumatism|chronic rheumatism]].
+- Associated with the [[concepts/physical/heart|heart]], [[concepts/physical/blood-quality|blood quality]], blood and [[concepts/physical/lymphatic-system|lymph flow]], [[concepts/physical/arteries|arteries]], [[concepts/physical/veins|veins]], and emotional heart complaints connected with [[concepts/emotional/grief|grief]].
+- Used in the source tradition for [[concepts/physical/osteoporosis|osteoporosis]], [[concepts/physical/teeth|tooth decay]], [[concepts/physical/calcium|calcium deficiency and deposits]], strong or [[concepts/physical/migraine|migraine-like]] [[concepts/physical/headache|headaches]] and [[concepts/physical/tension-headache|tension headaches]], [[concepts/physical/childhood-diseases|childhood diseases]] including [[concepts/physical/measles|measles]] and [[concepts/physical/smallpox|smallpox]], and [[concepts/physical/sleep|sleep]] difficulties including [[concepts/physical/insomnia|insomnia]].
+- The source also names [[concepts/physical/down-syndrome|Down syndrome]].
+- The source mentions amazonite under a pillow for deep, [[concepts/physical/relaxation|relaxed sleep]] and amazonite oil for skin care.
 
 ## Runes And Symbolic Associations
 
@@ -193,10 +588,10 @@ Amazonite is treated as a regenerative, investigative, calming, and balancing st
 
 ## Did You Know
 
-- Amazonite oil is described as useful for skin care, first-degree burns, sunburn, and limiting scar tissue after surgery.
-- Amazonite oil is also described as a practical kitchen-sink hand-care oil after washing hands, especially for rough skin, small wounds, and cracks.
-- RSI-like complaints, pain below the collarbone from mouse-arm strain, tennis elbow, and carpal tunnel complaints are associated with repeated use of amazonite oil on the affected places.
-- For nervousness, amazonite oil is described as something to apply to the temples before sleep.
+- Amazonite oil is described as useful for skin care, [[concepts/physical/burns|first-degree burns]], [[concepts/physical/sunburn|sunburn]], and limiting [[concepts/physical/scar-tissue|scar tissue]] after surgery.
+- Amazonite oil is also described as a practical kitchen-sink hand-care oil after washing hands, especially for [[concepts/physical/rough-skin|rough skin]], small wounds, and cracks.
+- [[concepts/physical/repetitive-strain-injury|RSI-like complaints]], pain below the collarbone from [[concepts/physical/mouse-arm|mouse-arm strain]], [[concepts/physical/tennis-elbow|tennis elbow]], and [[concepts/physical/carpal-tunnel|carpal tunnel]] complaints are associated with repeated use of amazonite oil on the affected places.
+- For [[concepts/emotional/nervousness|nervousness]], amazonite oil is described as something to apply to the temples before sleep.
 - The tarot card linked with amazonite is [[Three of Swords]], a card of problems, sadness, and heartache, but also of releasing tension and finding renewed balance.
 
 ## Images
@@ -235,6 +630,12 @@ Amazonite is treated as a regenerative, investigative, calming, and balancing st
 | Composition externally validated | Yes; microcline/K-feldspar formula validated with trace-element caveats. |
 | At least two external sources added | Yes. |
 | Therapeutic claims attributed | Yes; framed as gemstone-therapy tradition, not medical advice. |
+| Therapeutic coverage complete against source | Yes; the detailed indexed therapeutic lists are represented claim by claim. |
+| Therapeutic instructions and warnings preserved | Yes; oil use, placement, and source qualifiers are retained. |
+| Source-specific context coverage complete | Yes; historical, naming, symbolic, trade, and `Did You Know` details are represented. |
+| Source disclaimers and responsibility statements preserved | Yes; source responsibility and medical-care boundaries are represented in the page and notes. |
+| Therapeutic concepts source-mapped | Initial controlled vocabulary mapped from explicit source themes; prose remains canonical. |
+| Therapeutic concept candidates reconciled | Yes; the sentence-level register at [[concept-coverage/amazonite]] records mapped, grouped, and intentionally unmapped candidates, including source-section differences. |
 | Body uses observational voice | Yes. |
 | Content not compressed into high-level summary | Yes for proof-run coverage; long prose is paraphrased rather than copied. |
 

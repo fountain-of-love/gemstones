@@ -68,6 +68,17 @@ The note may be temporary, but it must preserve:
 - all external links
 - all scientific notation exactly as shown in the Semoea HTML
 
+Also record a source-coverage inventory before rewriting. This inventory must flag content that is easy to lose when prose is reorganized:
+
+- source-specific historical, religious, artistic, trade, and symbolic claims;
+- naming explanations, alternative names, and word histories;
+- every `Wist je dat...` item, including therapy-related items;
+- operational practices such as oils, elixirs, crystal water, placements, cleansing, or charging;
+- warnings, responsibility statements, treatment disclaimers, and professional-care guidance;
+- source-specific dates, quantities, locations, named people, animals, objects, and institutions.
+
+The raw checkpoint is an audit instrument, not a summary. A claim may later move to a different Markdown section, but it must remain traceable to the raw capture.
+
 Do not summarize during this step. This is the raw capture/checkpoint step, not the publishable Markdown prose.
 
 ### 4. Give Special Attention To Composition
@@ -132,6 +143,69 @@ Use equivalent Markdown forms:
 
 This step is not a high-level summary. Keep the meaning, order, and detail density intact. Translate labels and headings into English, but do not compress the article into a shorter overview. Use original wording rather than reproducing Semoea's long prose verbatim. The overview should retain the source description content, while deeper sections should organize the same material into structured knowledge without needless repetition.
 
+### 6A. Transfer Energetic And Therapeutic Content Completely
+
+The energetic and therapeutic section is a source-preservation section, not a short interpretation. Its minimum content must reflect everything present on the source page, while keeping the claims explicitly attributed to the source tradition and clearly separated from medical advice.
+
+Before writing the final page, create a therapeutic coverage map in the raw extraction checkpoint:
+
+| Source content | Required capture |
+|---|---|
+| Section overview or introductory therapy paragraph | Preserve the complete meaning in `### Overview`, not just a one-sentence theme. |
+| `Spiritueel` / Spiritual | Capture every distinct claim, chakra placement, energetic action, symbolic association, and usage instruction. |
+| `Mentaal` / Mental | Capture every distinct claim about thoughts, attention, confidence, learning, behavior, or decision-making. |
+| `Emotioneel` / Emotional | Capture every distinct claim about feelings, stress, fear, grief, relationships, or emotional processing. |
+| `Fysiek` / Physical | Capture every distinct body-system, symptom, condition, preparation, placement, and usage claim. |
+| Recipes, oils, elixirs, crystal water, cleansing, charging, dosage, or placement instructions | Preserve in a clearly labeled source-tradition subsection; never silently omit operational details. |
+| Warnings, contraindications, exceptions, or “use only if” language | Preserve prominently and do not soften or reinterpret. |
+| Therapy-related `Wist je dat...` items | Keep in `## Did You Know` and cross-reference them in the coverage map. |
+
+Transfer rules:
+
+- Keep one Markdown bullet or table row for each distinct source bullet or claim. Closely related sentences may be combined only when no meaning, condition, body area, or usage detail is lost.
+- Preserve the source's Spiritual, Mental, Emotional, and Physical order. If a subsection is absent, write `Not listed on source page.`
+- Preserve all named body areas, symptoms, conditions, chakras, emotions, relationships, and materials. Do not replace a long list with “supports overall health.”
+- Preserve source recipes and application instructions as descriptions of the tradition, but add the standard disclaimer that they are not medical advice and should not replace professional care.
+- Do not add medical corrections inside the source-tradition bullets. Put safety or evidence qualifications in a separate note so the source content remains auditable.
+- If the source uses repeated claims, retain them where they occur or record the repetition in the raw checkpoint; do not deduplicate until after coverage validation.
+- Use observational English prose, but keep the scope and strength of the source claim. Do not turn “associated with” into “treats,” and do not turn a source instruction into a recommendation from this repository.
+
+Therapeutic content is complete only when a reviewer can compare the final four subsections and any therapy instructions against the raw source capture and account for every source claim.
+
+### 6B. Transfer Source-Specific Context Completely
+
+The same preservation standard applies outside the therapeutic section. Do not assume that a fact is optional because it is historical, symbolic, poetic, commercial, or placed in a `Wist je dat...` block.
+
+Before finalizing, compare the page against the source-coverage inventory and confirm that:
+
+- historical and cultural claims retain their dates, places, people, objects, and uncertainty where present;
+- name-origin explanations retain each meaningful linguistic step and alternate name;
+- symbolic associations, runes, zodiac entries, religious associations, and trade meanings are represented;
+- source-specific “Did You Know” items are present, including items that repeat or extend the therapy section;
+- source disclaimers and responsibility statements are preserved or clearly represented in `Source Notes`;
+- practical instructions are retained as source tradition and are not silently converted into repository advice;
+- omissions caused by source access are explicitly marked as missing or conditional.
+
+Do not replace several distinct source details with a broad sentence such as “the stone has a rich history” or “the stone supports wellbeing.”
+
+### 6C. Extract Therapeutic Concepts For The Graph
+
+After the source-attributed therapeutic prose is complete, run the five-pass coverage workflow in [therapeutic-concept-model.md](/Users/yveslangeraert/Documents/Edelstenen/therapeutic-concept-model.md). Do not treat a small seed vocabulary as complete.
+
+For each concept:
+
+- choose the correct dimension and concept kind;
+- capture candidates before normalizing synonyms;
+- create or reuse a canonical note under `concepts/<dimension>/`;
+- add a source-qualified `associated_with` relationship in frontmatter;
+- add or update the concept note's human-readable `## Related Gemstones` list;
+- add an inline wikilink only where it improves navigation;
+- preserve distinctions between body areas, symptoms, systems, feelings, and mental processes;
+- do not infer concepts from modern medical knowledge or mineral chemistry;
+- do not use `treats`, `cures`, or `prevents` as relationship language.
+
+Use the controlled model in [therapeutic-concept-model.md](/Users/yveslangeraert/Documents/Edelstenen/therapeutic-concept-model.md). The concept layer is an index over the source prose, not a replacement for it.
+
 ### 7. Validate That Semoea Content Was Not Summarised
 
 Compare the Markdown file against the source article.
@@ -141,10 +215,22 @@ Minimum checks:
 - every Semoea `h2` section exists in the Markdown output
 - every Semoea `h3` subsection exists in the Markdown output
 - all health subsections are present: spiritual, mental, emotional, physical, or explicitly marked missing
+- every source therapeutic bullet or distinct claim has a corresponding Markdown bullet, table row, or explicitly mapped sentence
+- the therapeutic overview preserves all source themes rather than only the dominant theme
+- all therapy recipes, oils, elixirs, crystal-water instructions, cleansing/charging instructions, placements, dosage language, and warnings are represented or explicitly marked missing
+- no medical condition, body area, chakra, emotional state, material, or source qualifier has been dropped from the therapeutic section
+- the final therapeutic section is checked against the raw therapeutic coverage map, not only against the page headings
 - all paragraphs have equivalent content in the Markdown output
 - all Semoea bullet/list items have equivalent bullets or table rows
 - all source-page `Weblinks` / `Webtips` entries are present in `## Sources`
 - all `Wist je dat...` entries are present
+- all source-specific historical, symbolic, trade, naming, and cultural claims are present or explicitly mapped as unavailable
+- all source disclaimers, responsibility statements, and professional-care guidance are represented in the page or `Source Notes`
+- all source-specific dates, quantities, locations, named people, animals, objects, and institutions are preserved where present
+- every extracted mental, emotional, and physical concept is source-mapped and dimension-checked
+- every candidate is marked mapped, intentionally unmapped, or blocked
+- every concept relationship uses source-tradition scope and non-medical relation language
+- every concept note links back to the gemstones that carry the relationship
 - all images are recorded in `Images Mentioned`
 - no content was shortened into a broad summary
 - empty spec elements are still present
@@ -291,6 +377,16 @@ Use this checklist per gemstone:
 - [ ] Markdown file created from the full spec
 - [ ] Empty spec elements preserved
 - [ ] Semoea content transferred without summarising
+- [ ] Therapeutic coverage map created before rewriting
+- [ ] Every therapeutic source claim transferred or explicitly marked missing
+- [ ] Therapeutic recipes, instructions, warnings, and qualifiers preserved
+- [ ] Therapeutic section compared against the raw coverage map
+- [ ] Source-coverage inventory created before rewriting
+- [ ] Historical, symbolic, naming, trade, and cultural claims checked against the source inventory
+- [ ] Source disclaimers and responsibility statements preserved
+- [ ] Therapeutic concepts extracted into the controlled graph vocabulary
+- [ ] Therapeutic concept links and source relationships validated
+- [ ] Concept notes contain matching human-readable gemstone links
 - [ ] Non-summary validation completed
 - [ ] Composition revalidated against Semoea
 - [ ] At least two high-quality external sources added
@@ -299,3 +395,29 @@ Use this checklist per gemstone:
 - [ ] One reliable-knowledge refinement pass completed
 - [ ] Final composition refinement completed
 - [ ] Final file check completed
+
+### Source Access And Media Status
+
+Record the source-access mode in the page's `## Source Notes` and validation notes:
+
+- `direct HTML`: the primary page was retrieved and read directly;
+- `indexed full text`: the page was read from a reliable indexed rendering when direct retrieval was blocked;
+- `partial indexed text`: only part of the source was available and the page remains conditional;
+- `blocked`: do not complete the page from memory or unsupported secondary summaries.
+
+Image labels and captions recovered from indexed text are not image URLs. Mark an image URL as `Not recovered from indexed source result.` until the exact URL has been verified. Do not infer asset paths from naming conventions.
+
+## Batch Expansion Protocol
+
+When creating multiple gemstone files, use [gemstone-expansion-plan.md](/Users/yveslangeraert/Documents/Edelstenen/gemstone-expansion-plan.md) as the batch-level contract.
+
+- Work in batches of three to five deliberately diverse gemstones.
+- Read and capture every primary source before writing the corresponding page.
+- Treat the per-page checklist above as a hard quality floor.
+- Compare each completed batch with the pilot pages for structure, source coverage, composition handling, and writing voice.
+- Record omissions, conflicts, rework, and specification changes in a batch audit.
+- Change the specification only between batches, never silently during page creation.
+- Recheck an affected pilot page after any specification change.
+- Stop expansion when the primary source is inaccessible, composition is unresolved, or repeated one-off exceptions indicate contract drift.
+
+Throughput is not a completion criterion. Evidence, traceability, and structural consistency are.

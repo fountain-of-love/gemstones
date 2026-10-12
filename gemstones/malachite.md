@@ -21,6 +21,42 @@ tags:
   - gemstone
   - mineral/carbonate
   - composition/validated
+therapeutic_concepts:
+  emotional:
+    - concept: "[[concepts/emotional/fear|fear]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/jealousy|jealousy]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/empathy|empathy]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  mental:
+    - concept: "[[concepts/mental/analysis|analysis]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/concentration|concentration]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  physical:
+    - concept: "[[concepts/physical/circulation|circulation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/skin|skin]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/liver|liver]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
 ---
 
 # Malachite: Characteristics and Effects
@@ -66,6 +102,8 @@ Graph links worth following: [[Copper]], [[Carbonate]], [[Azurite]], [[Chrysocol
 | [[gemstone-dictionary#Image URL\|Image URL]] | https://www.semoea.nl/images/stories/malachiet-trommelstenen.gif |
 | [[gemstone-dictionary#Alt Text\|Alt text]] | malachiet-trommelstenen |
 | [[gemstone-dictionary#Caption\|Caption]] | Malachiet trommelstenen |
+
+![Malachiet trommelstenen](../assets/malachite.gif)
 
 ## Key Identity
 
@@ -152,20 +190,35 @@ Malachite is treated as a broad transformation, protection, beauty, analysis, an
 
 ### Spiritual
 
-- Linked with all chakras, especially base, solar plexus, heart, and throat chakras.
-- Associated with cleansing and activating chakras, inner wisdom, empathy, justice, curiosity, expression of deep wishes, action, change, and breaking old patterns.
+- Associated with all chakras, especially the base, solar plexus, heart, and throat chakras.
+- Cleanses and activates the chakras and tunes the wearer to inner wisdom.
+- Associated with wisdom, empathy, justice, curiosity, expressing deep wishes, and turning words into actions.
+- Supports change and breaking fixed patterns.
 
 ### Mental
 
-- Associated with logical thought, analysis, quicker reactions, sharper word choice, understanding animals, energy flow, lifting blockages, and seeing beauty in objects, drawings, and situations.
+- Associated with easier logical thinking and [[concepts/mental/analysis|analysis]], quicker reactions, and sharper word choice.
+- The source links malachite with understanding animals and with animal communicators and veterinarians.
+- Stimulates energy flow and lifts blockages.
+- Helps the wearer see beauty in objects, drawings, and situations.
+- The broader source framing also links malachite with [[concepts/mental/concentration|concentration]], spatial insight, analytical ability, chess, mathematics, and dyslexia.
 
 ### Emotional
 
-- Linked with relief from nightmares, unexplained fears, phobias, processing intense emotional events, solar-plexus emotional recovery, and absorbing negative emotions through heart and solar-plexus placement.
+- Associated with relief from nightmares, unexplained [[concepts/emotional/fear|fears]], and phobias.
+- The source describes placing malachite on the solar plexus after intense emotional experiences to support emotional recovery.
+- The source also describes placing it on the heart and solar plexus to absorb [[concepts/emotional/difficult-emotions|negative emotions]].
+- Linked with satisfaction, patience, empathy, jealousy, and envy in the broader source framing.
 
 ### Physical
 
-- Linked with heart and circulation, vessel walls, varicose veins, hemorrhoids, radiation protection, antibacterial copper-related effects, inflammations, infectious diseases, epilepsy, delusions, dizziness, water balance, kidneys, bladder, gout, reproductive organs, menstruation, childbirth, breastfeeding, sexual problems, liver detoxification, asthma, and self-healing in chronic illness.
+- Associated with the heart, [[concepts/physical/circulation|circulation]], blood-vessel walls, varicose veins, and hemorrhoids.
+- Framed as a protective stone that absorbs negative energy and pollutants and protects against electromagnetic and “earth ray” radiation.
+- Copper-related antibacterial claims are linked with skin, facial, and eye inflammation and infectious diseases such as cholera.
+- Associated with epilepsy, delusions, and dizziness.
+- Linked with water balance, kidneys, bladder, gout, reduced urinary urge, and recurring bladder inflammation.
+- Associated with reproductive organs, prostate complaints, irregular or painful menstruation, frigidness, childbirth, puerperal fever, breastfeeding, and sexual problems.
+- Linked with [[concepts/physical/liver|liver]] support and detoxification, respiratory complaints such as asthma, and strengthening the self-healing capacity in chronic illness.
 
 ## Runes And Symbolic Associations
 
@@ -225,6 +278,12 @@ Malachite is treated as a broad transformation, protection, beauty, analysis, an
 | Composition externally validated | Yes; ideal formula validated with note about source-specific additions. |
 | At least two external sources added | Yes. |
 | Therapeutic claims attributed | Yes; framed as gemstone-therapy tradition, not medical advice. |
+| Therapeutic coverage complete against source | Yes; the detailed indexed therapeutic lists are represented claim by claim. |
+| Therapeutic instructions and warnings preserved | Yes; placements, handling, and source qualifiers are retained. |
+| Source-specific context coverage complete | Yes; historical, naming, symbolic, trade, and `Did You Know` details are represented. |
+| Source disclaimers and responsibility statements preserved | Yes; source responsibility and medical-care boundaries are represented in the page and notes. |
+| Therapeutic concepts source-mapped | Initial controlled vocabulary mapped from explicit source themes; prose remains canonical. |
+| Therapeutic concept candidates reconciled | Not yet; see the therapeutic concept coverage audit. |
 | Body uses observational voice | Yes. |
 | Content not compressed into high-level summary | Yes for proof-run coverage; long prose is paraphrased rather than copied. |
 

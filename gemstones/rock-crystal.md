@@ -23,6 +23,42 @@ tags:
   - gemstone
   - mineral/quartz
   - composition/validated
+therapeutic_concepts:
+  emotional:
+    - concept: "[[concepts/emotional/harmony|harmony]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/contentment|contentment]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  mental:
+    - concept: "[[concepts/mental/willpower|willpower]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/concentration|concentration]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/intuition|intuition]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  physical:
+    - concept: "[[concepts/physical/skin|skin]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/bones|bones]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/headache|headache]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
 ---
 
 # Rock Crystal: Characteristics and Effects
@@ -68,6 +104,8 @@ Graph links worth following: [[Quartz]], [[Silica]], [[Amethyst]], [[Citrine]], 
 | [[gemstone-dictionary#Image URL\|Image URL]] | https://www.semoea.nl/images/stories/bergkristal.jpg |
 | [[gemstone-dictionary#Alt Text\|Alt text]] | bergkristal |
 | [[gemstone-dictionary#Caption\|Caption]] | Bergkristal met zeshoekige punt |
+
+![Bergkristal met zeshoekige punt](../assets/rock-crystal.jpg)
 
 ## Key Identity
 
@@ -161,20 +199,33 @@ Rock crystal is treated as the most neutral and versatile quartz in gemstone the
 
 ### Spiritual
 
-- Used on all chakras, with special affinity for base, heart, and crown chakras.
-- Linked with connecting chakras, filling the heart with light, cleansing subtle bodies, dissolving energetic blockages, breaking old behavior patterns, developing intuitive capacities, cleansing the aura, and aligning self-development.
+- Used on all chakras, with special affinity for the base, heart, and crown chakras.
+- Associated with connecting all chakras and filling the heart with light, especially through an octahedral crystal placed on the heart.
+- Described as cleansing and strengthening subtle bodies and dissolving energetic blockages in chakras, ida and pingala, meridians, and nadis.
+- The source instructs that released blockages should be naturally discharged and mentions drinking natural rock-crystal water as part of that tradition.
+- Used to recognize and break old unwanted behavior patterns and support spiritual growth.
+- Associated with clairvoyance, clairaudience, clairsentience, claircognizance, and clairgustance.
+- Linked with meditation, [[concepts/mental/intuition|intuition]], the inner eye, aura cleansing, aura strengthening, and self-development in accordance with a divine plan.
 
 ### Mental
 
-- Linked with energy, willpower, purpose, insight into motives, concentration, and study support.
+- Associated with energy, [[concepts/mental/willpower|willpower]], and goal-directedness.
+- Looking at or meditating with rock crystal is linked with insight into personal motives and drives; phantom quartz receives an additional past-life association.
+- Keeping rock crystal nearby while studying is associated with improved [[concepts/mental/concentration|concentration]].
 
 ### Emotional
 
-- Associated with love, harmony, purity, heart opening, steady mood, and contentment.
+- Associated with love, [[concepts/emotional/harmony|harmony]], and purity.
+- Linked with opening the heart chakra, especially through rainbow crystals.
+- Associated with an even mood and [[concepts/emotional/contentment|contentment]].
 
 ### Physical
 
-- Treated as a broad panacea in gemstone therapy, connected with self-healing, skin, hair, bones, teeth, nails, wounds, eczema, acne, sweating, balance disorders, nausea, travel sickness, relaxation, stress recovery, DNA-level regeneration claims, bowel complaints, and headache support.
+- Treated in the source tradition as the most neutral and versatile crystal and as a general panacea supporting the body's self-healing capacity.
+- Linked with [[concepts/physical/skin|skin]], hair, [[concepts/physical/bones|bones]], nails, teeth, small wounds, eczema, acne, brittle nails, brittle or dull hair, hair loss, excessive sweating, body odor, and sweaty feet.
+- Associated with balance disorders, nausea, motion sickness, sea sickness, relaxation, and recovery from stress and excitement.
+- The source includes a DNA-level regeneration claim.
+- Linked with diarrhea, constipation, flatulence, and some [[concepts/physical/headache|headaches]]; the source mentions carrying the stone in a pocket for intestinal complaints.
 
 ## Runes And Symbolic Associations
 
@@ -230,6 +281,12 @@ Rock crystal is treated as the most neutral and versatile quartz in gemstone the
 | Composition externally validated | Yes; quartz identity and SiO<sub>2</sub> formula checked against Mindat and Webmineral. |
 | At least two external sources added | Yes. |
 | Therapeutic claims attributed | Yes; framed as gemstone-therapy tradition, not medical advice. |
+| Therapeutic coverage complete against source | Yes; the detailed indexed therapeutic lists are represented claim by claim. |
+| Therapeutic instructions and warnings preserved | Yes; water preparation, placement, and source qualifiers are retained. |
+| Source-specific context coverage complete | Yes; historical, naming, symbolic, trade, and `Did You Know` details are represented. |
+| Source disclaimers and responsibility statements preserved | Yes; source responsibility and medical-care boundaries are represented in the page and notes. |
+| Therapeutic concepts source-mapped | Initial controlled vocabulary mapped from explicit source themes; prose remains canonical. |
+| Therapeutic concept candidates reconciled | Not yet; see the therapeutic concept coverage audit. |
 | Body uses observational voice | Yes. |
 | Content not compressed into high-level summary | Yes for proof-run coverage; long prose is paraphrased rather than copied. |
 

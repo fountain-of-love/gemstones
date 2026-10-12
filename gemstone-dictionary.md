@@ -18,6 +18,7 @@ Gemstone pages should link their structured field labels to the relevant heading
 - [[#Geology And Occurrence Vocabulary]]
 - [[#Relationship And Naming Vocabulary]]
 - [[#Symbolic Vocabulary]]
+- [[#Therapeutic Concept Vocabulary]]
 - [[#Media And Source Vocabulary]]
 - [[#Validation Vocabulary]]
 
@@ -31,6 +32,7 @@ The easiest way to read this file is not alphabetically but structurally. Start 
 - "Where does it occur?" -> [[#Geology And Occurrence Vocabulary]]
 - "How is it named or related?" -> [[#Relationship And Naming Vocabulary]]
 - "How is it symbolically framed?" -> [[#Symbolic Vocabulary]]
+- "Which source-attributed concepts recur across stones?" -> [[#Therapeutic Concept Vocabulary]]
 - "Where did the information come from?" -> [[#Media And Source Vocabulary]]
 - "How was it checked?" -> [[#Validation Vocabulary]]
 
@@ -119,6 +121,17 @@ These entries support the symbolic, astrological, and rune-based parts of the ge
 - [[#Rune Symbol / Image]]
 - [[#Relation To Gemstone]]
 - [[#Zodiac Sign]]
+
+## Therapeutic Concept Vocabulary
+
+These entries define the controlled graph layer for source-attributed mental, emotional, and physical associations. They are indexes of source tradition, not medical or psychological diagnoses.
+
+- [[#Mental Concept]]
+- [[#Emotional Concept]]
+- [[#Physical Concept]]
+- [[#Therapeutic Concept ID]]
+- [[#Therapeutic Relation]]
+- [[#Therapeutic Scope]]
 
 ## Media And Source Vocabulary
 
@@ -343,6 +356,30 @@ How the rune or symbol is connected to the gemstone in the source tradition.
 ## Zodiac Sign
 
 The astrological sign associated with the gemstone.
+
+## Mental Concept
+
+A canonical concept describing source-mentioned cognition, attention, learning, perception, motivation, or decision-making.
+
+## Emotional Concept
+
+A canonical concept describing source-mentioned feelings, emotional states, relationships, or emotional processing.
+
+## Physical Concept
+
+A canonical concept describing a source-mentioned body area, system, symptom, function, or condition. Preserve the kind rather than collapsing all physical concepts into generic health.
+
+## Therapeutic Concept ID
+
+The stable dimension-prefixed identifier of a concept, such as `emotional/fear`, `mental/concentration`, or `physical/headache`.
+
+## Therapeutic Relation
+
+The relationship between a gemstone and a concept. Use `associated_with` by default; avoid medical-causation verbs such as `treats`, `cures`, or `prevents`.
+
+## Therapeutic Scope
+
+The provenance boundary of a concept relationship, normally `source-tradition` for claims transferred from Semoea.
 
 ## Title
 

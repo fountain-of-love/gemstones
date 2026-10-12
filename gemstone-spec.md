@@ -78,6 +78,10 @@ source_site: "Semoea Helende Edelstenen"
 menu_range: "A-L or M-Z"
 language: "en"
 last_checked: "YYYY-MM-DD"
+therapeutic_concepts:
+  emotional: []
+  mental: []
+  physical: []
 ---
 
 # {English gemstone name}: Characteristics and Effects
@@ -219,23 +223,31 @@ Therapeutic claims are source-attributed and not medical advice.
 
 ### Overview
 
-One short paragraph describing the overall energetic / therapeutic tradition around the stone.
+Describe the complete overall energetic / therapeutic framing from the source page. This may be several paragraphs when the source gives multiple themes. Do not reduce a detailed page to one broad sentence.
 
 ### Spiritual
 
-- 
+Transfer every distinct source claim, chakra association, energetic action, symbolic association, and usage detail. Keep the source tradition explicit.
 
 ### Mental
 
-- 
+Transfer every distinct source claim about thought, attention, confidence, learning, behavior, or decision-making.
 
 ### Emotional
 
-- 
+Transfer every distinct source claim about feelings, stress, fear, grief, relationships, or emotional processing.
 
 ### Physical
 
-- 
+Transfer every distinct source claim about body systems, symptoms, conditions, materials, preparation, placement, dosage, and use. Preserve source instructions and warnings with clear attribution.
+
+Link explicit recurring concepts to canonical notes under `concepts/emotional/`, `concepts/mental/`, or `concepts/physical/`. Keep the full source-attributed sentence or bullet; the link is an index, not a replacement for the prose.
+
+### Source-Therapy Details
+
+Use this subsection when the source includes oils, elixirs, crystal water, cleansing, charging, dosage, placement, contraindications, or other operational details that do not fit cleanly into Spiritual, Mental, Emotional, or Physical. Write `Not listed on source page.` when absent.
+
+Concept links in this section are indexes only. Each linked concept note must provide a reciprocal `## Related Gemstones` section for human navigation.
 
 ## Runes And Symbolic Associations
 
@@ -288,15 +300,24 @@ Record article images so media can be audited or reused later.
 | Composition externally validated |  |
 | At least two external sources added |  |
 | Therapeutic claims attributed |  |
+| Therapeutic coverage complete against source |  |
+| Therapeutic instructions and warnings preserved |  |
+| Source-specific context coverage complete |  |
+| Source disclaimers and responsibility statements preserved |  |
+| Therapeutic concepts source-mapped |  |
+| Therapeutic concept candidates reconciled |  |
 | Body uses observational voice |  |
 | Content not compressed into high-level summary |  |
 
 ## Source Notes
 
+Record the source-access mode, source-specific omissions or uncertainty, and whether the source's responsibility/disclaimer language was preserved. Source-specific historical, symbolic, trade, and “Did You Know” material must be traceable here or in the relevant page section.
+
 - Content is based on the linked Semoea page.
 - Keep copied wording minimal; use summaries unless a short direct quote is explicitly needed.
 - Preserve external links exactly as listed on the source page.
 - Do not present gemstone therapy information as medical advice.
+- Preserve the source page's therapeutic coverage claim by claim; do not compress detailed source lists into a general summary.
 ```
 
 ## Extraction Rules

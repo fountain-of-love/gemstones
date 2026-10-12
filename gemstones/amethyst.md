@@ -22,6 +22,46 @@ tags:
   - gemstone
   - mineral/quartz
   - composition/validated
+therapeutic_concepts:
+  emotional:
+    - concept: "[[concepts/emotional/grief|grief]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/fear|fear]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/emotional/calm|calm]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  mental:
+    - concept: "[[concepts/mental/concentration|concentration]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/decision-making|decision-making]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/mental/clarity|clarity]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+  physical:
+    - concept: "[[concepts/physical/headache|headache]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/sleep|sleep]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
+    - concept: "[[concepts/physical/circulation|circulation]]"
+      relation: associated_with
+      source: Semoea
+      scope: source-tradition
 ---
 
 # Amethyst: Characteristics and Effects
@@ -67,6 +107,8 @@ The wider graph connects amethyst to [[Quartz]], [[Rock Crystal]], [[Citrine]], 
 | [[gemstone-dictionary#Image URL\|Image URL]] | https://www.semoea.nl/images/stories/amethist-geode1.gif |
 | [[gemstone-dictionary#Alt Text\|Alt text]] | amethist geode |
 | [[gemstone-dictionary#Caption\|Caption]] | Amethist geode |
+
+![Amethist geode](../assets/amethyst.gif)
 
 ## Key Identity
 
@@ -169,20 +211,37 @@ In gemstone therapy, amethyst is mainly treated as a clarifying, calming, spirit
 
 ### Spiritual
 
-- Associated with the forehead and crown chakras, and also with heart and base chakra placements.
-- Linked with spirituality, intuition, detachment, wisdom, acceptance of loss, searching for meaning, and meditation.
+- Associated with the forehead and crown chakras.
+- Placed above the crown to open it, on the heart to open the heart chakra, and below the base chakra to support grounding and connection with the earth.
+- Linked with spiritual growth, [[concepts/mental/intuition|intuition]], detachment, and wisdom.
+- Helps frame the relativity of things and accept loss as part of life, leaving room for new developments.
+- Associated with searching for the meaning of life.
+- Used during meditation to find inner silence.
 
 ### Mental
 
-- Associated with willpower, nonjudgmental observation, compassion, honesty, fairness, decision-making, and prioritization.
+- Makes the wearer strong-willed without necessarily making them highly active.
+- Encourages looking without judgment and with compassion at oneself, others, and the surroundings.
+- Associated with honesty and justice, including a traditional connection with judges and lawyers.
+- Used for inner division, doubt, and [[concepts/mental/decision-making|decision stress]] by calmly examining the available options.
+- Helps distinguish what is genuinely important from what is not.
 
 ### Emotional
 
-- Associated with grief processing, letting go, reducing disappointment or despair, heart-centered communication, comfort, calm, and protection in fear.
+- Used in the source tradition for [[concepts/emotional/grief|grief]] and accepting loss.
+- Described as a stone of letting go and breaking negative behavior patterns and habits through meditation.
+- Associated with reducing disappointment, despair, and gloom.
+- Encourages responding, speaking, and working from the heart.
+- Associated with comfort, [[concepts/emotional/calm|calm]], and protection during [[concepts/emotional/fear|fear and phobias]].
 
 ### Physical
 
-- Linked with headache support, sleep rhythm, nightmares, hormonal glands, pancreas, nervousness, stress, blood and circulation, skin, hair, nails, bones, calming, and softening excess coffee effects.
+- Associated with [[concepts/physical/headache|headaches]], especially claims involving the hypothalamus, and the source gives forehead or short-necklace placement instructions.
+- Linked with the pineal gland, [[concepts/physical/sleep|falling asleep]], staying asleep, and nightmares; the source describes a piece on the nightstand or under the pillow.
+- Associated with hormonal glands, especially the pancreas and diabetes-related claims.
+- Linked with nervousness, stress, [[concepts/mental/concentration|concentration]], blood, blood composition, circulation, heart, and blood vessels.
+- Associated with skin complaints, hair, nails, bones, calmer behavior, hyperactivity, and reducing the perceived effects of too much coffee.
+- The source also mentions amethyst water for cleaner skin and shinier hair.
 
 ## Runes And Symbolic Associations
 
@@ -241,6 +300,12 @@ In gemstone therapy, amethyst is mainly treated as a clarifying, calming, spirit
 | Composition externally validated | Yes; quartz identity and SiO<sub>2</sub> formula checked against Mindat, GIA, and Webmineral. |
 | At least two external sources added | Yes. |
 | Therapeutic claims attributed | Yes; framed as gemstone-therapy tradition, not medical advice. |
+| Therapeutic coverage complete against source | Yes; the detailed indexed therapeutic lists are represented claim by claim. |
+| Therapeutic instructions and warnings preserved | Yes; placements, water use, and source qualifiers are retained. |
+| Source-specific context coverage complete | Yes; historical, naming, symbolic, trade, and `Did You Know` details are represented. |
+| Source disclaimers and responsibility statements preserved | Yes; source responsibility and medical-care boundaries are represented in the page and notes. |
+| Therapeutic concepts source-mapped | Initial controlled vocabulary mapped from explicit source themes; prose remains canonical. |
+| Therapeutic concept candidates reconciled | Not yet; see the therapeutic concept coverage audit. |
 | Body uses observational voice | Yes. |
 | Content not compressed into high-level summary | Yes for proof-run coverage; long prose is paraphrased rather than copied. |
 

@@ -52,6 +52,8 @@ These tensions could come together as a scientific field of knowledge compositio
 
 Semoea is treated as the primary source for the original gemstone page structure, Dutch naming, therapeutic tradition, imagery, and source-page content. The repository does not aim to copy long Semoea prose verbatim. Instead, it preserves factual coverage, section coverage, images, links, and scientific notation while rewriting in original wording.
 
+“Factual coverage” includes source-specific historical, symbolic, naming, trade, cultural, and `Did You Know` details, as well as therapeutic claims, practical instructions, warnings, and the source's own responsibility/disclaimer language. These are checked against a raw source-coverage inventory before a page is considered complete.
+
 Each gemstone file should add at least two high-quality external sources, preferably from mineralogical, gemological, museum, university, or scientific references such as Mindat, Webmineral, GIA, RRUFF, Handbook of Mineralogy, museums, or peer-reviewed sources.
 
 Therapeutic and energetic claims remain source-attributed and are not presented as medical advice.
@@ -65,12 +67,17 @@ Therapeutic and energetic claims remain source-attributed and are not presented 
 | `gemstone-process.md` | The step-by-step workflow for creating each gemstone file. |
 | `gemstone-dictionary.md` | Shared vocabulary for recurring table fields, concepts, validation terms, and Obsidian links. |
 | `gemstone-proof-run-5.md` | Audit trail for the first five gemstone files created with the process. |
+| `gemstone-expansion-plan.md` | Batch protocol, quality floor, diversity plan, metrics, and audit template for expansion. |
+| `gemstone-expansion-batch-1-audit.md` | Audit of the first diversity batch, including source-access limitations and process decisions. |
+| `therapeutic-concept-model.md` | Controlled mental, emotional, and physical concept model for graph navigation and filtering. |
+| `therapeutic-concept-coverage-audit.md` | Candidate register and reconciliation status for concept extraction across existing gemstone pages. |
 | `gemstones/` | The gemstone note collection. Currently contains the five proof-run gemstones. |
+| `concepts/` | Canonical graph nodes for source-attributed therapeutic concepts. |
 | `skills/` | Local reusable skills for defining specs, making processes, and writing structured content. |
 
 ## Current Gemstone Files
 
-The first proof run created five complete gemstone notes:
+The first proof run created five complete gemstone notes, and Batch 1 adds five diversity-test notes:
 
 | Gemstone | File | Scientific focus |
 |---|---|---|
@@ -80,11 +87,21 @@ The first proof run created five complete gemstone notes:
 | Moonstone | `gemstones/moonstone.md` | Feldspar gemstone, orthoclase/adularia and albite layering caveats. |
 | Malachite | `gemstones/malachite.md` | Copper carbonate hydroxide, Cu<sub>2</sub>(CO<sub>3</sub>)(OH)<sub>2</sub>. |
 
+Batch 1:
+
+| Gemstone | File | Scientific focus |
+|---|---|---|
+| Amber | `gemstones/amber.md` | Organic fossil resin rather than a mineral species. |
+| Diamond | `gemstones/diamond.md` | Native carbon and trace-element color. |
+| Lapis lazuli | `gemstones/lapis-lazuli.md` | Mixed lazurite-bearing rock. |
+| Obsidian | `gemstones/obsidian.md` | Amorphous volcanic glass. |
+| Turquoise | `gemstones/turquoise.md` | Hydrated copper-aluminium phosphate and treatment caveats. |
+
 Each note keeps the hard structure from the spec, but the writing style is observational about the stone rather than repeatedly phrased around the source.
 
 ## How To Add The Next Gemstone
 
-Use this order:
+Use this order, following the controlled batch protocol in [gemstone-expansion-plan.md](/Users/yveslangeraert/Documents/Edelstenen/gemstone-expansion-plan.md):
 
 1. Pick the next stone from `gemstone-index-nl.md`.
 2. Read `gemstone-spec.md`.
@@ -95,7 +112,11 @@ Use this order:
 7. Create `gemstones/<english-slug>.md` from the spec.
 8. Preserve empty required fields as explicit empty fields or `Not listed on source page.`
 9. Add at least two external scientific validation sources.
-10. Run the process checklist, with a final composition validation pass.
+10. Compare the finished page against the raw source-coverage inventory, including historical, symbolic, trade, `Did You Know`, instruction, warning, and disclaimer content.
+11. Extract explicit mental, emotional, and physical concepts into the controlled graph vocabulary.
+12. Run the process checklist, with a final composition validation pass.
+
+Create new pages in batches of three to five. Complete the per-page checklist, then perform a cross-page batch audit before changing the specification or starting the next batch. Do not trade away source access, composition validation, or omission checks for throughput.
 
 ## Obsidian Notes
 
