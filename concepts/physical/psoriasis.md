@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/psoriasis
 concept_kind: condition
 label: psoriasis
 ---

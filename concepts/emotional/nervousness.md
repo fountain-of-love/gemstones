@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: emotional
+concept_id: emotional/nervousness
 concept_kind: emotional-state
 label: nervousness
 ---

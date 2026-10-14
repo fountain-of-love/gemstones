@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/autonomic-functions
 concept_kind: body-function
 label: autonomic functions
 aliases: [unconscious bodily functions]

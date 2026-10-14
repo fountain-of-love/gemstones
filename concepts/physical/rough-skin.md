@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/rough-skin
 concept_kind: skin-condition
 label: rough skin
 aliases: [rough skin and cracks]

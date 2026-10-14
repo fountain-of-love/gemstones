@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/arteries
 concept_kind: body-structure
 label: arteries
 ---

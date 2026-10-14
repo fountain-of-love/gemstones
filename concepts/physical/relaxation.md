@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/relaxation
 concept_kind: body-state
 label: relaxation
 ---

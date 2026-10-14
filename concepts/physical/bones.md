@@ -15,3 +15,4 @@ The skeletal system or bones as a source-mentioned physical concept.
 
 - [[lapis-lazuli|Lapis Lazuli]] — source-tradition association
 - [[rock-crystal|Rock Crystal]] — source-tradition association
+- [[Amazonite]] — source-tradition association

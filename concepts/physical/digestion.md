@@ -15,3 +15,4 @@ Digestion or digestive function as a source-mentioned physical concept.
 
 - [[Moonstone]] — source-tradition association
 - [[Amber]] — source-tradition association
+- [[Amazonite]] — source-tradition association

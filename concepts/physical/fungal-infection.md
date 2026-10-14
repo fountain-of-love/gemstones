@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/fungal-infection
 concept_kind: condition
 label: fungal infection
 aliases: [fungal infections]

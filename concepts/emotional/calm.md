@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: emotional
+concept_id: emotional/calm
 concept_kind: emotional-state
 label: emotional calm
 aliases: [calming]

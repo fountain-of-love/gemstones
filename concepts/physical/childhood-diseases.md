@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/childhood-diseases
 concept_kind: condition-category
 label: childhood diseases
 ---

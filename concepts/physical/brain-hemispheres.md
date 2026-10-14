@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/brain-hemispheres
 concept_kind: body-area
 label: brain hemispheres
 aliases: [left and right brain hemispheres]

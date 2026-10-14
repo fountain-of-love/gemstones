@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/reflective-examination
 concept_kind: reasoning
 label: reflective examination
 aliases: [examining a problem from all sides]

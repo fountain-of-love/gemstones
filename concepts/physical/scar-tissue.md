@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/scar-tissue
 concept_kind: tissue-condition
 label: scar tissue
 aliases: [scar formation, scars]

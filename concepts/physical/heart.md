@@ -13,3 +13,4 @@ The heart as a source-mentioned physical concept.
 ## Related Gemstones
 
 - [[Diamond]] — source-tradition association
+- [[Amazonite]] — source-tradition association

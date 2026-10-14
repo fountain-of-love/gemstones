@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/incontinence
 concept_kind: symptom
 label: incontinence
 ---

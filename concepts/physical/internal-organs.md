@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/internal-organs
 concept_kind: body-area
 label: internal organs
 ---

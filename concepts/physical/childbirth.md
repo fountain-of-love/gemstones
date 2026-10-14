@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/childbirth
 concept_kind: life-event
 label: childbirth
 ---

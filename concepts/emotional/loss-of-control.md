@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: emotional
+concept_id: emotional/loss-of-control
 concept_kind: fear-theme
 label: loss of control
 aliases: [fear of losing control]

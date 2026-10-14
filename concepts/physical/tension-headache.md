@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/tension-headache
 concept_kind: symptom
 label: tension headache
 aliases: [tension headaches]

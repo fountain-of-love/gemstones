@@ -154,3 +154,45 @@ A concept extraction pass is complete only when:
 - concept notes do not become an unreviewed synonym dump.
 - every explicit candidate in the coverage register is mapped, intentionally unmapped, or blocked;
 - no dimension is treated as complete based only on link count.
+
+## Evidence And Review Contract
+
+The model has four deliberately separate artifacts:
+
+| Artifact | Authority | Purpose |
+|---|---|---|
+| Gemstone therapeutic prose | Human-readable source-preservation layer | Keeps the complete attributed claim and its context visible. |
+| `concept-coverage/<slug>.md` | Editorial evidence layer | Records every candidate phrase and the normalization decision. |
+| Gemstone `therapeutic_concepts` frontmatter | Structured edge layer | Makes source-qualified relationships queryable. |
+| `concepts/<dimension>/<id>.md` | Controlled vocabulary layer | Gives humans a reusable node with reverse navigation. |
+
+These layers must agree, but they are not interchangeable. A frontmatter link cannot substitute for source prose; a concept note cannot substitute for the candidate register; and a register row cannot be considered mapped until the graph edge and reverse navigation exist.
+
+### Candidate state machine
+
+```text
+captured -> classified -> mapped
+                    \-> intentionally unmapped
+                    \-> blocked
+```
+
+`captured` and `classified` are working states only. A register may be called `reconciled` only when no row remains in either state and no mapped edge fails structural validation.
+
+### Review questions for each sentence
+
+1. What explicit mental, emotional, physical, practical, or named-condition terms are present?
+2. Are multiple concepts hiding in one phrase?
+3. Does the source subsection differ from the semantic dimension?
+4. Is the qualifier meaningful enough to preserve as a multi-word node?
+5. Is the candidate explicit in the source, or has it been inferred?
+6. If it is not mapped, is the reason recorded in the register and retained in prose?
+
+### Verification command
+
+Run the structural validator after manifestation and before declaring completion:
+
+```bash
+python3 scripts/validate_therapeutic_concepts.py gemstones/<slug>.md
+```
+
+This catches broken graph mechanics. It intentionally does not replace human source review; the register is the evidence that a human actually performed that review.

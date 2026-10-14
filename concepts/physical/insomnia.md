@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/insomnia
 concept_kind: sleep-condition
 label: insomnia
 aliases: [difficulty falling asleep, difficulty staying asleep]

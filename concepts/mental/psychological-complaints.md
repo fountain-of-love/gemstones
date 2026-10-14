@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/psychological-complaints
 concept_kind: condition-category
 label: psychological complaints
 aliases: [mild psychological complaints]

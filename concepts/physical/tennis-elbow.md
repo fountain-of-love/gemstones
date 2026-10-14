@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/tennis-elbow
 concept_kind: condition
 label: tennis elbow
 ---

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/breathing
 concept_kind: body-function
 label: breathing
 ---

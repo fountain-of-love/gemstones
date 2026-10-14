@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/mouse-arm
 concept_kind: condition
 label: mouse arm
 aliases: [mouse-arm strain]

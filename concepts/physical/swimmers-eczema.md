@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/swimmers-eczema
 concept_kind: condition
 label: swimmer's eczema
 aliases: [swimmers eczema]

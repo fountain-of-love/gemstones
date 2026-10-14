@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/repetitive-strain-injury
 concept_kind: condition-category
 label: repetitive strain injury
 aliases: [RSI]

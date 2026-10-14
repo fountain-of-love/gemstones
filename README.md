@@ -71,8 +71,10 @@ Therapeutic and energetic claims remain source-attributed and are not presented 
 | `gemstone-expansion-batch-1-audit.md` | Audit of the first diversity batch, including source-access limitations and process decisions. |
 | `therapeutic-concept-model.md` | Controlled mental, emotional, and physical concept model for graph navigation and filtering. |
 | `therapeutic-concept-coverage-audit.md` | Candidate register and reconciliation status for concept extraction across existing gemstone pages. |
+| `concept-coverage/` | Sentence-level evidence registers and the reusable register template for therapeutic concept extraction. |
 | `gemstones/` | The gemstone note collection. Currently contains the five proof-run gemstones. |
 | `concepts/` | Canonical graph nodes for source-attributed therapeutic concepts. |
+| `scripts/validate_therapeutic_concepts.py` | Structural validator for frontmatter edges, canonical notes, reciprocal links, and register completion. |
 | `skills/` | Local reusable skills for defining specs, making processes, and writing structured content. |
 
 ## Current Gemstone Files
@@ -114,7 +116,8 @@ Use this order, following the controlled batch protocol in [gemstone-expansion-p
 9. Add at least two external scientific validation sources.
 10. Compare the finished page against the raw source-coverage inventory, including historical, symbolic, trade, `Did You Know`, instruction, warning, and disclaimer content.
 11. Extract explicit mental, emotional, and physical concepts into the controlled graph vocabulary.
-12. Run the process checklist, with a final composition validation pass.
+12. Create the sentence-level therapeutic coverage register before declaring concept extraction complete.
+13. Run the therapeutic graph validator and the process checklist, with a final composition validation pass.
 
 Create new pages in batches of three to five. Complete the per-page checklist, then perform a cross-page batch audit before changing the specification or starting the next batch. Do not trade away source access, composition validation, or omission checks for throughput.
 
@@ -133,5 +136,7 @@ The repository is intentionally modular and incremental:
 - One repeatable creation process.
 - One dictionary interface.
 - One Markdown file per gemstone.
+- One sentence-level coverage register per gemstone with therapeutic concept extraction.
+- One repeatable structural validator for the graph contract.
 
 This keeps the system simple enough to grow stone by stone, while still supporting scientific precision, source traceability, validation, and graph-based exploration.

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/measles
 concept_kind: condition
 label: measles
 ---

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/hair
 concept_kind: body-area
 label: hair
 aliases: [hair complaints, hair loss]

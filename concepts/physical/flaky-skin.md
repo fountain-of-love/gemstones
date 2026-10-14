@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/flaky-skin
 concept_kind: skin-condition
 label: flaky skin
 ---

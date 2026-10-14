@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/carpal-tunnel
 concept_kind: condition
 label: carpal tunnel
 aliases: [carpal tunnel complaints]

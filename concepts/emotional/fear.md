@@ -19,3 +19,4 @@ Fear-related experience explicitly associated with a gemstone in source traditio
 - [[Diamond]] — source-tradition association
 - [[lapis-lazuli|Lapis Lazuli]] — source-tradition association
 - [[Amber]] — source-tradition association
+- [[Amazonite]] — source-tradition association

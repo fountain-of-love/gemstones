@@ -16,3 +16,4 @@ Circulation or blood flow as a source-mentioned physical concept.
 - [[Moonstone]] — source-tradition association
 - [[Amethyst]] — source-tradition association
 - [[Malachite]] — source-tradition association
+- [[Amazonite]] — source-tradition association

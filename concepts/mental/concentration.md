@@ -18,3 +18,4 @@ Concentration or sustained attention associated with a gemstone in source tradit
 - [[rock-crystal|Rock Crystal]] — source-tradition association
 - [[Diamond]] — source-tradition association
 - [[Amethyst]] — source-tradition association
+- [[Amazonite]] — source-tradition association

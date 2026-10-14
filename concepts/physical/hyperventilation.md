@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/hyperventilation
 concept_kind: symptom
 label: hyperventilation
 ---

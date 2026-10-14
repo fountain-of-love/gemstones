@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/information-filtering
 concept_kind: cognition
 label: information filtering
 aliases: [filtering information]

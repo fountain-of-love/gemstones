@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/herpes-simplex
 concept_kind: condition
 label: herpes simplex
 aliases: [cold sores]

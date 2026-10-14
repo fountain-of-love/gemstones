@@ -16,3 +16,4 @@ Headache-related complaints as a source-mentioned physical concept. Migraine rem
 - [[rock-crystal|Rock Crystal]] — source-tradition association
 - [[lapis-lazuli|Lapis Lazuli]] — source-tradition association
 - [[Amethyst]] — source-tradition association
+- [[Amazonite]] — source-tradition association

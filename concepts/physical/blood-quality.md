@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/blood-quality
 concept_kind: body-function
 label: blood quality
 ---

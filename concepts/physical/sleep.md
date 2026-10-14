@@ -15,3 +15,4 @@ Sleep, rest, or sleep rhythm as a source-mentioned physical concept.
 
 - [[Amethyst]] — source-tradition association
 - [[Diamond]] — source-tradition association
+- [[Amazonite]] — source-tradition association

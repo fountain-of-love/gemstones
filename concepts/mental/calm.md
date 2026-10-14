@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/calm
 concept_kind: mental-state
 label: mental calm
 aliases: [calm]

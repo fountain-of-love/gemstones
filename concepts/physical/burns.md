@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/burns
 concept_kind: condition
 label: burns
 aliases: [first-degree burns]

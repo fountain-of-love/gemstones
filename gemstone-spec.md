@@ -249,6 +249,14 @@ Use this subsection when the source includes oils, elixirs, crystal water, clean
 
 Concept links in this section are indexes only. Each linked concept note must provide a reciprocal `## Related Gemstones` section for human navigation.
 
+### Therapeutic Concept Coverage Register
+
+Every gemstone with therapeutic prose must have a companion register at `concept-coverage/<english-slug>.md`, based on `concept-coverage/_template.md`. The register is part of the page contract, not optional working notes.
+
+It must record every explicit candidate phrase before normalization, including multiple concepts in one sentence, source-section versus semantic-dimension differences, named conditions, and source-specific operational claims. Each candidate must finish as `Mapped`, `Intentionally unmapped`, or `Blocked` with a reason.
+
+The page may claim concept completeness only when the register status is `reconciled`, the structural validator passes, and every mapped concept has both gemstone-side and concept-side navigation.
+
 ## Runes And Symbolic Associations
 
 This section maps to `Runen`, `Runen bij {gemstone}`, or equivalent.

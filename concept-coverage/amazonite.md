@@ -57,7 +57,7 @@ This register is the sentence-level checkpoint for Amazonite. It separates sourc
 | Arthrosis and chronic rheumatism | `physical/arthrosis`, `physical/rheumatism` | Mapped as distinct named conditions |
 | Heart, blood quality, blood flow, arteries, veins | `physical/heart`, `physical/blood-quality`, `physical/circulation`, `physical/arteries`, `physical/veins` | Mapped as organ, quality, function, and structures |
 | Lymph flow | `physical/lymphatic-system` | Mapped |
-| Grief-related heart complaints | `emotional/grief`, `physical/heart` | Grief exists; heart pending |
+| Grief-related heart complaints | `emotional/grief`, `physical/heart` | Mapped as emotional context plus physical organ |
 | Osteoporosis, tooth decay, calcium deficiency, calcium deposits | `physical/osteoporosis`, `physical/teeth`, `physical/calcium` | Mapped; calcium deficiency/deposits intentionally share one nutrient concept |
 | Strong, chronic, migraine-like, or tension headaches | `physical/headache`, `physical/migraine`, `physical/tension-headache` | Mapped as generic and qualified headache concepts |
 | Childhood diseases, including measles and smallpox | `physical/childhood-diseases`, `physical/measles`, `physical/smallpox` | Mapped as category plus named examples |

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/information-processing
 concept_kind: cognition
 label: information processing
 aliases: [combining information]

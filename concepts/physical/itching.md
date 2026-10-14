@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/itching
 concept_kind: symptom
 label: itching
 ---

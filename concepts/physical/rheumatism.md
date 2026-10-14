@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/rheumatism
 concept_kind: condition
 label: chronic rheumatism
 aliases: [rheumatism]

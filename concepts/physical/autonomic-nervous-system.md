@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/autonomic-nervous-system
 concept_kind: body-system
 label: autonomic nervous system
 aliases: [vegetative nervous system]

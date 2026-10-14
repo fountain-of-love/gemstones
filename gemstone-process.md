@@ -364,6 +364,21 @@ Before considering the gemstone complete, verify:
 - source links are clickable and human-readable
 - claims added during refinement are backed by reliable sources
 
+### 14A. Therapeutic Graph Verification
+
+Treat therapeutic concept extraction as its own evidence-backed editorial pass after the therapeutic prose is stable:
+
+1. Create or update `concept-coverage/<english-slug>.md` from the complete prose.
+2. Capture candidates sentence by sentence before looking at existing graph links.
+3. Review mental, emotional, and physical candidates with the specialist references in `skills/therapeutic-concept-extractor/references/`.
+4. Preserve multi-word qualifiers and named conditions when they carry meaning.
+5. Manifest mapped candidates in frontmatter, inline prose, and reciprocal concept notes.
+6. Record intentional exclusions and source-section differences in the register.
+7. Run `python3 scripts/validate_therapeutic_concepts.py gemstones/<slug>.md`.
+8. Mark the register `Status: reconciled` only after the command passes and the human register review is complete.
+
+The validator is a structural guardrail, not a semantic oracle. A passing command does not excuse a shallow candidate capture.
+
 ## Completion Checklist
 
 Use this checklist per gemstone:
@@ -395,6 +410,12 @@ Use this checklist per gemstone:
 - [ ] One reliable-knowledge refinement pass completed
 - [ ] Final composition refinement completed
 - [ ] Final file check completed
+- [ ] Therapeutic coverage register created from complete prose
+- [ ] Candidate phrases captured before normalization
+- [ ] Multi-concept sentences and multi-word concepts reviewed
+- [ ] Every candidate has a final mapped, intentionally unmapped, or blocked state
+- [ ] Therapeutic graph validator passes
+- [ ] Register status is reconciled only when all human and machine checks pass
 
 ### Source Access And Media Status
 

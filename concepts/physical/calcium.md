@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/calcium
 concept_kind: nutrient-related
 label: calcium
 aliases: [calcium deficiency, calcium deposits]

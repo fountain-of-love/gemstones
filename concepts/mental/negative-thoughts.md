@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/negative-thoughts
 concept_kind: thought-pattern
 label: negative thoughts
 ---

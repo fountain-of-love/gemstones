@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/thymus
 concept_kind: organ
 label: thymus
 ---

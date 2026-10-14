@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/bed-wetting
 concept_kind: symptom
 label: bed-wetting
 aliases: [bedwetting]

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/osteoporosis
 concept_kind: condition
 label: osteoporosis
 ---

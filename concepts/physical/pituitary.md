@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/pituitary
 concept_kind: organ
 label: pituitary gland
 aliases: [pituitary]

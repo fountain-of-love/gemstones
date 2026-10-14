@@ -15,3 +15,4 @@ Willpower, resolve, or self-discipline associated with a gemstone in source trad
 
 - [[rock-crystal|Rock Crystal]] — source-tradition association
 - [[Diamond]] — source-tradition association
+- [[Amazonite]] — source-tradition association

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/heart-rhythm
 concept_kind: body-function
 label: heart rhythm
 aliases: [heart rate]

@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/body-awareness
 concept_kind: awareness
 label: body awareness
 aliases: [awareness of bodily functions]

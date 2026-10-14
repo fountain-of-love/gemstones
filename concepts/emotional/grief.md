@@ -14,3 +14,4 @@ Grief or loss-related emotional processing associated with a gemstone in source 
 ## Related Gemstones
 
 - [[Amethyst]] — source-tradition association
+- [[Amazonite]] — source-tradition association

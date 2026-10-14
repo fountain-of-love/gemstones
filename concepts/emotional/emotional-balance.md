@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: emotional
+concept_id: emotional/emotional-balance
 concept_kind: regulation
 label: emotional balance
 aliases: [balancing emotions]

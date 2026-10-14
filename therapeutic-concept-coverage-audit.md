@@ -8,11 +8,11 @@ This audit checks whether the initial graph vocabulary represents the explicit c
 
 ## Current Finding
 
-The first concept pass created a useful seed vocabulary and reciprocal navigation, but it was not exhaustive. Existing pages currently expose approximately 3–12 inline concept links per therapeutic section. Link count is not used as a completeness measure; the candidate register below is the required next review surface.
+The first concept pass created a useful seed vocabulary and reciprocal navigation, but it was not exhaustive. Amazonite has since been reconciled through the sentence-level register; the remaining rows below are the historical cross-page inventory for pages that have not yet completed that workflow. Link count is not used as a completeness measure.
 
 ## Candidate Register
 
-The following candidates are visible in the current gemstone prose and require classification under the five-pass workflow. Some should reuse existing concepts; others may deserve new, more precise notes.
+The following candidates are visible in the current gemstone prose. Amazonite is retained as the baseline example; the other pages require classification under the five-pass workflow. Some candidates should reuse existing concepts; others may deserve new, more precise notes.
 
 | Gemstone | Dimension | Candidate concepts requiring review |
 |---|---|---|
@@ -54,7 +54,7 @@ The following candidates are visible in the current gemstone prose and require c
 | Source prose | Preserved in the gemstone pages. |
 | Seed concept notes | Manifested with reciprocal navigation. |
 | Candidate extraction | In progress; this audit is the explicit work register. |
-| Concept completeness | Not yet claimed. |
+| Concept completeness | Amazonite reconciled; not yet claimed for the remaining pages. |
 | Source-limited pages | Obsidian and Turquoise remain conditional. |
 
 ## Amazonite Reconciliation

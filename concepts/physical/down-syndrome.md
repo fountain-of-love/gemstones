@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/down-syndrome
 concept_kind: named-condition
 label: Down syndrome
 ---

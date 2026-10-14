@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: mental
+concept_id: mental/rumination
 concept_kind: thought-pattern
 label: rumination
 aliases: [repetitive thoughts, malende gedachten]

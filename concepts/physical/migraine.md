@@ -1,6 +1,7 @@
 ---
 type: therapeutic-concept
 dimension: physical
+concept_id: physical/migraine
 concept_kind: symptom
 label: migraine
 aliases: [migraine-like headaches]
